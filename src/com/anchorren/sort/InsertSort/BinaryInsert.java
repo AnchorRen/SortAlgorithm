@@ -8,15 +8,12 @@ import java.util.Arrays;
  * @author REN
  */
 public class BinaryInsert {
-	
-	
 	public static void main(String[] args) {
 		int[] a={49,38,65,97,176,213,227,49,78,34,12,164,11,18,1};
 		System.out.println(Arrays.toString(a));
 		int[] result = sort(a);
 		System.out.println(Arrays.toString(result));
 	}
-	
 	public static int[] sort(int[] nums){
 		
 		if(nums == null)
@@ -45,7 +42,5 @@ public class BinaryInsert {
 				nums[left] = temp;
 		}
 		return nums;
-		
 	}
-
 }
